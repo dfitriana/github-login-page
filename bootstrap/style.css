@@ -1,0 +1,71 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI Variable Text","Segoe UI","Meiryo",system-ui,ui-sans-serif,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    line-height: 1.5;
+    color: #c1d1d9;
+    background-color: #0d1117 ;
+}
+.navbar{
+    background-color: #0d1117 !important;
+}
+.navbar-brand{
+    margin: 0 auto;
+}
+.auth-form{
+    width: 340px;
+    min-height: 349px;
+    margin: 0 auto;
+}
+.form{
+    background-color: rgba(22, 27, 34, 0.7);
+    border-radius: 6px;
+    border-color:#30363d;
+    padding: 20px;
+}
+#label{
+    font-size: 24px;
+    color: #c1d1d9;
+    text-align: center;
+}
+.form-control{
+    background-color: #0d1117;
+    border-color:#30363d;
+    border-radius: 6px;
+}
+.form-control:-webkit-autofill:focus {
+    box-shadow: inset 0 0 0 32px #0d1117,var(--color-state-focus-shadow) !important;
+}
+.form-control:-webkit-autofill {
+    -webkit-text-fill-color: var(--color-text-primary);
+}
+.btn{
+    width:100%;
+    background-color: #238636;
+}
+.text1{
+    padding: 15px 20px;
+    text-align: center;
+    border: 1px solid rgba(110, 118, 129, 0.4);
+    border-radius: 6px;
+}
+.link-primary{
+    text-decoration: none;
+}
+ul{
+    list-style:none;
+    margin:0 auto;
+    justify-content: space-between;
+}
+li{
+    text-decoration: none;
+}
+ul > li + li {
+    /* memberikan spasi antar tulisan 'route' */
+    margin-left: 2em;
+}
+
+.p-responsive {
+    max-width: 544px;
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+}
